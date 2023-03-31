@@ -1,0 +1,173 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+.wrap {
+    font-size: 40px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+
+
+}
+
+.wrap .container .container-inner {
+    width: 1140px;
+    /* background: #0064FF; */
+    margin: 0 auto;
+    padding: 250px 0;
+}
+
+
+
+.wrap header {
+    font-size: 16px;
+    width: 100%;
+    /* background-color: tomato; */
+    height: 50px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #aaa;
+    background-color: #fff;
+    z-index: 10;
+
+}
+
+.wrap header .nav .inner-header a {
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+}
+
+.wrap header .nav {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    /* background-color: skyblue; */
+    height: 100%;
+    align-items: center;
+}
+
+.wrap header .nav .inner-header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.wrap header .nav .inner-header img {
+    width: 20px;
+    height: 20px;
+}
+
+.wrap header .nav .gnb {
+    display: flex;
+    flex: 4;
+    justify-content: right;
+}
+
+.wrap header .nav .gnb li a {
+    padding: 10px;
+}
+
+.wrap header .nav .lang {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.wrap header .nav ul li:hover a {
+    background-color: rgba(99, 99, 99, 0.1);
+    border-radius: 10px;
+}
+
+/* end header */
+
+/* footer */
+footer{
+    width: 100vw;
+    background-color: #191f28;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+footer .footer-inner{
+    margin: 0 auto;
+    padding: 67px;
+    width: 1064px;
+}
+footer .footer-inner p{
+    font-size: 13px;
+    color:#8b95a1;
+}
+footer .footer-inner a{
+    color: #6b7684;
+    font-size: 15px;
+}
+footer .footer-inner strong {
+    color: #b0b8c1;
+    font-size: 13px;
+}
+footer .footer-inner span {
+    color: #b0b8c1;
+    padding-bottom: 5px;
+    height: 35px;
+}
+footer .footer-menu{
+    display: flex;
+    padding-bottom: 50px;
+}
+footer .footer-menu ul {
+    width: 170px;
+}
+footer .footer-menu ul li a{
+
+    line-height: 30px;
+}
+footer .footer-menu ul li:hover a{
+    text-decoration: underline;
+    
+}
+footer .footer-menu ul:last-child {
+    width: 420px;
+}
+strong{
+    font-weight: bold;
+}
+footer .footer-inner .info strong {
+    padding-bottom: 16px;
+    
+}
+footer .footer-inner .info a{
+    font-size: 13px;
+    display: inline;
+}
+footer .footer-inner .info a:hover{
+    text-decoration: underline;
+}
+
+footer .footer-inner .info p{
+    display: inline;
+}
+footer .footer-inner .f-ul {
+    display: inline-grid;
+    grid-template-columns: repeat(4,auto);
+    column-gap: 34px;
+    row-gap: 4px;
+    padding: 24px 0 30px;
+
+    
+    width: 630px;
+    justify-content: space-between;
+    grid-row-gap: 4px;
+    white-space: nowrap;
+
+}
+
+footer .footer-inner .f-ul a{
+    color: #6b7684;
+    font-size: 13px;
+    line-height: 18px;
+}
+footer .footer-inner .f-ul a:hover{
+    text-decoration: underline;
+}
+footer .footer-inner .f-ul a strong {
+    color: #b0b8c1;
+    font-weight: 500;
+}
